@@ -1,4 +1,4 @@
-import DesignTeamwork from "../../assets/svgs/DesignTeamwork.svg";
+import DesignTeamwork from "../assets/svgs/DesignTeamwork.svg";
 
 export default function Home() {
   return (
