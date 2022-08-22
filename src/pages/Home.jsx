@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex h-screen flex-col p-4 lg:px-36 lg:py-8 ">
       <ul className="flex flex-row items-center justify-between">
-        <li className="flex gap-4 text-h6">
+        <li className="flex gap-4 text-h6 items-center">
           <div className="h-8 w-8 rounded-full bg-primaryGradient-start"></div>
           Something
         </li>
