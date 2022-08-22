@@ -8,7 +8,7 @@ export default function Home() {
       <ul className="flex flex-row items-center justify-between">
         <li className="flex gap-4 text-h6 items-center">
           <div className="h-8 w-8 rounded-full bg-primaryGradient-start"></div>
-          Something
+          <p className="text-lg">Something</p>
         </li>
         <LoginButton />
       </ul>
