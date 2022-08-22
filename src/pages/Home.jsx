@@ -1,5 +1,6 @@
 import DesignTeamwork from "../assets/svgs/DesignTeamwork.svg";
 import LoginButton from "../components/LoginButton";
+import Button from "../components/Button";
 
 export default function Home() {
   return (
@@ -20,7 +21,10 @@ export default function Home() {
             labore et dolore magna aliqua.
           </h5>
           <div className="w-52 self-center lg:self-start">
-           
+            <Button
+              text="Let's Go"
+              bgcolor="bg-gradient-to-r from-primaryGradient-start to-primaryGradient-end"
+            />
           </div>
         </div>
         <div className="lg:m-auto">
