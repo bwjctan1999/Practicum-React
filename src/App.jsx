@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from './pages/Home';
+import Signup from './pages/Signup';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/*" element={<Home />}/>
+            <Route path="/Signup" element={<Signup />} />
           </Routes>
         </BrowserRouter>
     </div>
