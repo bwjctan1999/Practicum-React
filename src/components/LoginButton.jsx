@@ -6,7 +6,7 @@ export default function LoginButton() {
   return (
     <button
       className="rounded-lg bg-gradient-to-r from-primaryGradient-start to-primaryGradient-start py-3 px-6 text-sm text-white"
-      onClick={() => navigate("/Login")}
+      onClick={() => navigate("/Signup")}
     >
       Login
     </button>
