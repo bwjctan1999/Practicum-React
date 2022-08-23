@@ -3,7 +3,7 @@ export default function TextField({ type, placeholder }) {
     <input
       type={type}
       placeholder={placeholder}
-      className="p-3 text-sm bg-white w-full border border-opacity-50 rounded-2xl shadow text-black outline-none"
+      className="p-3 text-sm bg-white w-full border border-opacity-50 rounded-2xl shadow text-black outline-0 focus:ring-blue-600 focus:ring-1"
     />
   );
 }
